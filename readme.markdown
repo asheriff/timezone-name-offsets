@@ -10,6 +10,14 @@ console.log(offsets['Pacific/Nauru']); // 720
 console.log(offsets['Canada/Yukon']); // -420
 ```
 
+# install
+
+With [npm](https://npmjs.org) do:
+
+```
+npm install timezone-name-offsets
+```
+
 # license
 
 MIT
