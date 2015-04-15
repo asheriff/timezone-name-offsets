@@ -3,9 +3,6 @@
   "version": "1.0.1",
   "description": "iana timezone names mapped to offsets in minutes",
   "main": "index.json",
-  "bin": {
-    "timezone-name-offsets": "build.js"
-  },
   "dependencies": {},
   "devDependencies": {
     "zoneinfo": "^0.1.8"
