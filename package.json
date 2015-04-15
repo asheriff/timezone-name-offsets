@@ -1,0 +1,35 @@
+{
+  "name": "timezone-name-offsets",
+  "version": "1.0.0",
+  "description": "iana timezone names mapped to offsets in minutes",
+  "main": "index.json",
+  "bin": {
+    "timezone-name-offsets": "build.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "zoneinfo": "^0.1.8"
+  },
+  "scripts": {
+    "test": "tape test/*.js",
+    "build": "node bin/build.js > index.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/substack/timezone-name-offsets.git"
+  },
+  "keywords": [
+    "timezone",
+    "iana",
+    "offset",
+    "name",
+    "data",
+    "time"
+  ],
+  "author": "substack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/substack/timezone-name-offsets/issues"
+  },
+  "homepage": "https://github.com/substack/timezone-name-offsets"
+}
